@@ -1,0 +1,4 @@
+create database mytask;
+use mytask;
+create table shop (id int(3) auto_increment primary key, fname varchar (45), lname varchar(45), address varchar(45), email varchar(45), uname varchar(45), pass varchar(45), phone varchar(45));
+create table admin(id int(3) auto_increment primary key, fname varchar (45), lname varchar(45), address varchar(45), email varchar(45), uname varchar(45), pass varchar(45), phone varchar(45));
